@@ -19,7 +19,7 @@ To study LabelAId in a real world context, we instrumented the open-source crowd
 See our code for [PWS](/model-pipeline/PWS.ipynb) and [FT-Transformer](/model-pipeline/FT-Transformer.ipynb) for more details.
 
 ## Datasets
-Our datasets come from Project Sidewalk labels from Seattle, WA; Chicago, IL; and Oradell, NJ. The unannotated set is used to pre-train the model after our PWS annotation process. The expert-validated set is used to fine-tune and evaluate the inference model, which was created from labels manually-validated by the Project Sidewalk research team.
+Our [datasets](/datasets) come from Project Sidewalk labels from Seattle, WA; Chicago, IL; and Oradell, NJ. The unannotated set is used to pre-train the model after our PWS annotation process. The expert-validated set is used to fine-tune and evaluate the inference model, which was created from labels manually-validated by the Project Sidewalk research team.
 
 | Label Type            | Seattle Unannotated | Seattle Expert-Validated | Chicago Unannotated | Chicago Expert-Validated | Oradell Unannotated | Oradell Expert-Validated | Total   |
 |-----------------------|----------------------|---------------------------|----------------------|--------------------------|---------------------|--------------------------|---------|
