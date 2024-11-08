@@ -3,7 +3,7 @@ LabelAId is an advanced inference model combining Programmatic Weak Supervision 
 
 ![LabelAId](/figures/labelaid-teaser.png)
 
-This repository contains the data, model code, evaluation code for “LabelAId: AI Interventions for Improving Human Labeling Quality and Domain Knowledge in Crowdsourcing Systems” by Chu Li*, Zhihan Zhang*, Michael Saugstad, Esteban Safranchik, Minchu Kulkarni, Xiaoyu Huang, Shwetak Patel, Vikram Iyer, Tim Althoff, Jon E. Froehlich. The paper was published in Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI’24).
+This repository contains the data, model code, evaluation code for *LabelAId: AI Interventions for Improving Human Labeling Quality and Domain Knowledge in Crowdsourcing Systems* by Chu Li*, Zhihan Zhang*, Michael Saugstad, Esteban Safranchik, Minchu Kulkarni, Xiaoyu Huang, Shwetak Patel, Vikram Iyer, Tim Althoff, Jon E. Froehlich. The paper was published in Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI’24).
 
 ## LabelAId Pipeline
 The LabelAId machine learning pipeline consists of two phases, programmatic weak supervision for annotating raw data, and discriminative machine learning models for downstream tasks.
