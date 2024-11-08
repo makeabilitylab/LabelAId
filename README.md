@@ -37,7 +37,7 @@ LabelAId consistently outperforms all other baseline models and can improve mist
 
 
 ## User Study
-Having demonstrated the technical efficacy of our LabelAId system in inferring label correctness, we implemented the LabelAId inference model in Project Sidewalk, and evaluated the user experience and performance of the end-to-end system with users in the loop.
+After demonstrating the technical efficacy of our LabelAId system in inferring label correctness, we implemented the LabelAId inference model in Project Sidewalk, and evaluated the user experience and performance of the end-to-end system with users in the loop.
 
 ![User flow](/figures/labelaid-user-flow.png "A user flow diagram of LabelAId implemented in Project Sidewalk.")
 
