@@ -37,6 +37,7 @@ LabelAId consistently outperforms all other baseline models and can improve mist
 ![User flow](/figures/labelaid-user-flow.png "A user flow diagram of LabelAId implemented in Project Sidewalk.")
 
 Having demonstrated the technical efficacy of our LabelAId system in inferring label correctness, we implemented the LabelAId inference model in Project Sidewalk, and evaluated the user experience and performance of the end-to-end system with users in the loop.
+
 The code for integrating LabelAId pipeline with Project Sidewalk labeling interface can be found [here](https://github.com/ProjectSidewalk/SidewalkWebpage/blob/62d300018634b6c22172f7168779e61a5f643a25/public/javascripts/SVLabel/src/SVLabel/PredictionModel.js#L662).
 
 ### Cite LabelAId
