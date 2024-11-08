@@ -16,7 +16,7 @@ To study LabelAId in a real world context, we instrumented the open-source crowd
 ![FT-Transformer](/figures/labelaid-transformer-diagram.png "This is the image caption")
 
 
-See our code for [PWS](/3.2%20Applying%20LabelAId%20to%20Project%20Sidewalk.ipynb) and FT-Transformer for more details.
+See our code for [PWS](/model-pipeline/PWS.ipynb) and [FT-Transformer](/model-pipeline/FT-Transformer.ipynb) for more details.
 
 ## Datasets
 Our datasets come from Project Sidewalk labels from Seattle, WA; Chicago, IL; and Oradell, NJ. The unannotated set is used to pre-train the model after our PWS annotation process. The expert-validated set is used to fine-tune and evaluate the inference model, which was created from labels manually-validated by the Project Sidewalk research team.
@@ -37,7 +37,7 @@ LabelAId consistently outperforms all other baseline models and can improve mist
 ![User flow](/figures/labelaid-user-flow.png "A user flow diagram of LabelAId implemented in Project Sidewalk.")
 
 Having demonstrated the technical efficacy of our LabelAId system in inferring label correctness, we implemented the LabelAId inference model in Project Sidewalk, and evaluated the user experience and performance of the end-to-end system with users in the loop.
-The code for integrating LabelAId pipeline with Project Sidewalk labeling interface can be found here.
+The code for integrating LabelAId pipeline with Project Sidewalk labeling interface can be found [here](https://github.com/ProjectSidewalk/SidewalkWebpage/blob/62d300018634b6c22172f7168779e61a5f643a25/public/javascripts/SVLabel/src/SVLabel/PredictionModel.js#L662).
 
 ### Cite LabelAId
 ```
