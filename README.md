@@ -31,7 +31,7 @@ Our datasets come from Project Sidewalk labels from Seattle, WA; Chicago, IL; an
 | **All Label Types**   | **176,694**         | **16,348**                | **11,774**           | **5,699**                | **7,584**           | **3,852**                | **221,951** |
 
 ## Technical Evaluation
-LabelAId consistently outperforms all other baseline models and can improve mistake inference accuracy by up to 37% with just 50 downstream samples. See our evelaution code and paper for more details.
+LabelAId consistently outperforms all other baseline models and can improve mistake inference accuracy by up to 37% with just 50 downstream samples. See our evaluation code and paper for more details.
 
 ## User Study
 ![User flow](/figures/labelaid-user-flow.png "A user flow diagram of LabelAId implemented in Project Sidewalk.")
