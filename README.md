@@ -33,6 +33,9 @@ Our [datasets](/datasets) come from Project Sidewalk labels from Seattle, WA; Ch
 ## Technical Evaluation
 LabelAId consistently outperforms all other baseline models and can improve mistake inference accuracy by up to 37% with just 50 downstream samples. See our evaluation code and paper for more details.
 
+![Techinical Evaluation](/figures/labelaid-accuracy-f1.png "This is the image caption")
+
+
 ## User Study
 ![User flow](/figures/labelaid-user-flow.png "A user flow diagram of LabelAId implemented in Project Sidewalk.")
 
