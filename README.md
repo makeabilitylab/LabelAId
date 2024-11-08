@@ -1,9 +1,6 @@
 # LabelAId: AI Interventions for Improving Human Labeling Quality and Domain Knowledge in Crowdsourcing Systems
-LabelAId is an advanced inference model combining Programmatic Weak Supervision (PWS) with Feature Tokenizer + Transformer (FT-Transformer) to infer label correctness based on user behavior and domain knowledge.
-<br>
-Check out our [paper](https://dl.acm.org/doi/pdf/10.1145/3613904.3642089) and [video](https://youtu.be/53Cmxsqjphg) for more details.
-<br>
-<br>
+LabelAId is an advanced inference model combining Programmatic Weak Supervision (PWS) with Feature Tokenizer + Transformer (FT-Transformer) to infer label correctness based on user behavior and domain knowledge. Check out our [paper](https://dl.acm.org/doi/pdf/10.1145/3613904.3642089) and [video](https://youtu.be/53Cmxsqjphg) for more details.
+
 ![LabelAId](/figures/labelaid-teaser.png)
 
 This repository contains the data, model code, evaluation code for “LabelAId: AI Interventions for Improving Human Labeling Quality and Domain Knowledge in Crowdsourcing Systems” by Chu Li*, Zhihan Zhang*, Michael Saugstad, Esteban Safranchik, Minchu Kulkarni, Xiaoyu Huang, Shwetak Patel, Vikram Iyer, Tim Althoff, Jon E. Froehlich. The paper was published in Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI’24).
@@ -13,9 +10,11 @@ The LabelAId machine learning pipeline consists of two phases, programmatic weak
 
 ![Pipeline](/figures/labelaid-LF-pipeline.png "This is the image caption")
 
+
 To study LabelAId in a real world context, we instrumented the open-source crowdsourcing tool, Project Sidewalk. When integrating LabelAId with Project Sidewalk, we chose the FT-transformer model as the discriminative model, as it is designed to handle tabular data with mixed numerical and categorical features, therefore it aligns with the heterogeneous nature of the Project Sidewalk dataset.
 
 ![FT-Transformer](/figures/labelaid-transformer-diagram.png "This is the image caption")
+
 
 See our code for [PWS](/3.2%20Applying%20LabelAId%20to%20Project%20Sidewalk.ipynb) and FT-Transformer for more details.
 
